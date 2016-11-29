@@ -12,3 +12,24 @@ SRID_F16_Dispatch Repo
 4. Enable group calling instances with dispatch in wide spread instances
 
 5. Automated processes for standardized procedures such as towed cars
+
+
+## Supported Nodejs version: 0.10.25
+
+Please use the Node.js version from this source: https://nodejs.org/en/blog/release/v0.10.25/]
+
+If using this template on Linux Ubuntu, add the following line to ./bashrc to include the path to the binary:
+
+- export PATH=$PATH:<your_nodejs_path>/bin
+
+Reload the paths by $source ~/.bashrc
+
+Install the components needed to run the node server:
+
+- sudo <your_nodejs_path>/bin/npm install -g bower
+- npm install
+- bower install
+
+Then run the server:
+
+- npm start
