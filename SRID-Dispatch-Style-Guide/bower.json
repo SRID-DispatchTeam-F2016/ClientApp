@@ -1,0 +1,11 @@
+{
+  "name": "Software Requirement and Interaction Design",
+  "description": "Task 5 - Style Guide",
+  "version": "0.0.0",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "~3.1.1",
+    "bootstrap": "~4.0.0"
+  }
+}

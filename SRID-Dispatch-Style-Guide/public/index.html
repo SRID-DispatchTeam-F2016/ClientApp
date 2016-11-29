@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> <!-- Adjust this one -->
+        <script type="text/javascript" src="jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header class="navbar navbar-bright navbar-fixed-top" role="banner">
+          <div class="container">
+            <div class="navbar-header">
+              <a href="/" class="navbar-brand">Dispatch Team</a>
+            </div>
+              <ul class="nav navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#sec1">Colors</a>
+
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sec2">Buttons</a>
+
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sec3">Iconography</a>
+
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sec4">Typography</a>
+                </li>
+              </ul>
+          </div>
+        </header>
+
+        <div id="masthead">  
+          <div class="container">
+              <div class="row">
+                <div class="col-md-5">
+                  <h1>Style Guide</h1>
+                  <p>11/28/2016</p>
+                </div>
+                <div class="col-md-7">
+                    <div class="well well-lg"> 
+                      <div class="row">
+                        <div class="col-sm-12">
+                            <h3>Summary</h3>
+                            <p>
+                              This dispatch communication application is created to support multiple channels 
+                              for users to supply and obtain information. The target features include: <br>
+                              <ol>
+                                <li> Specify location using media regarding surrounding environments such as pictures</li>
+                                <li>Drop pin on map indicating the user's location to the best of their knowledge</li>
+                                <li>Automatically loop in emergency contacts on the user's status during emergencies</li>
+                                <li>Enable group calling instances with dispatch in wide spread instances</li>
+                                <li>Automated processes for standardized procedures such as towed cars</li>
+                              </ol>
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div> 
+          </div><!-- /cont -->
+        </div>
+
+        <!-- Begin Body -->
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-1" id="leftCol">
+                      
+
+                      
+                    </div>  
+                    <div class="col-md-11">
+
+                        <h2 id="sec1">Colors</h2>
+                          <table class="table table-striped">
+                            <tr>
+                              <th>Category</th>
+                              <th>Explanation</th>
+                              <th>Example</th>
+                            </tr>
+                            <tr>
+                              <td>Main view Background</td>
+                              <td>The background should be light-colored and causes
+                                the least amount of attention and also be eye-friendly.</td>
+                              <td>
+                                <div class="square" style="background-color: Silver"></div>
+                                <div class="square" style="background-color: White; border: 1px solid Silver"></div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Navigation Background</td>
+                              <td>The navigation background should be used at the header
+                                and the footer, if any, to contrast with the color of the
+                                main view.</td>
+                              <td>
+                                <div class="square" style="background-color: Black"></div>
+                                <div class="square" style="background-color: Teal"></div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Notice Bar (Warning)</td>
+                              <td>Yellow background with a black font</td>
+                              <td>
+                                <div class="square" style="background-color: Yellow; color: black">ABC</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Notice Bar (Danger)</td>
+                              <td>Red background with a black font</td>
+                              <td>
+                                <div class="square" style="background-color: Red; color: black">ABC</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Chat Bubble Background</td>
+                              <td></td>
+                              <td>
+                                <div class="square" style="background-color: LightBlue">ABC</div>
+                              </td>
+                            </tr>
+                          </table>
+                          
+                        <hr>
+
+                        <h2 id="sec2">Buttons</h2>
+                          <table class="table table-striped">
+                            <tr>
+                              <th>Category</th>
+                              <th>Explanation</th>
+                              <th>Sample</th>
+                            </tr>
+                            <tr>
+                              <td>Info</td>
+                              <td>These are non-significant buttons for page navigation purpose. They 
+                                should demonstrate their functions properly but don't have to be very
+                                outstanding. </td>
+                              <td>
+                                <input class="btn" type="button" value="Back"></input>
+                                <input class="btn" type="button" value="Next"></input>
+                                <input class="btn" type="button" value="Cancel"></input>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Caution</td>
+                              <td>These are buttons that slightly catch more attention and will more
+                                easily attract user's attention in the case when he wants to interact
+                                with the application. </td>
+                              </td>
+                              <td>
+                                <input class="btn btn-warning" type="button" value="OK"></input>
+                                <input class="btn btn-warning" type="button" value="Confirm"></input>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Danger</td>
+                              <td>These buttons are meant to be very eye catching and intuitive to
+                                cause pressing without much thought. </td>
+                              </td>
+                              <td>
+                                <input class="btn btn-danger" type="button" value="Help"></input>
+                                <input class="btn btn-danger" type="button" value="Emergency"></input>
+                              </td>
+                            </tr>
+                          </table>
+                   
+                        <hr class="col-md-12"> 
+                      
+                        <h2 id="sec3">Iconography</h2>
+                          <p>Thanks to <a href="https://www.iconfinder.com/paomedia">Paomedia</a>, 
+                              <a href="https://www.iconfinder.com/webalys">Webalys</a> and
+                              <a href="https://www.iconfinder.com/weweka">WEWEKA DESiGNERS</a>
+                              for providing the icons.
+                          </p>
+                        <hr>
+                        <div class="row">
+                          <div class="col-md-3">
+                            <img src="img/add_.png">
+                            <div>
+                              <h5>Add Contact</h5>
+                              <p>This icon is used prior to emergency.</p>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <img src="img/remove_.png">
+                            <div>
+                              <h5>Remove Contact</h5>
+                              <p>This icon is used prior to emergency.</p>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <img src="img/call_.png">
+                            <div>
+                              <h5>Call</h5>
+                              <p>Self-explaining function for use during emergency.</p>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <img src="img/chat_.png">
+                            <div>
+                              <h5>Chat</h5>
+                              <p>Self-explaining function for use during emergency.</p>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <img src="img/confirm_.png">
+                            <div>
+                              <h5>Confirm</h5>
+                              <p>Outstanding function for use at any time.</p>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <img src="img/map_.png">
+                            <div>
+                              <h5>Map</h5>
+                              <p>Self-explaning function for use at any time.</p>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <img src="img/photo_.png">
+                            <div>
+                              <h5>Take photo</h5>
+                              <p>Self-explaning function for use at any time.</p>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <img src="img/user_.png">
+                            <div>
+                              <h5>Photo</h5>
+                              <p>Icon for opening a contact's profile for prior to emergency.</p>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <h2 id="sec4">Typography</h2>
+                          <table class="table">
+                            <tr>
+                              <th>Type</th>
+                              <th>Explanation</th>
+                              <th>Example</th>
+                            </tr>
+                            <tr>
+                              <td>Button Text</td>
+                              <td>Light and visible, explain well the function of the button.</td>
+                              <td>
+                                <input type="button" class="btn btn-info" value="Next"></input>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>System Message</td>
+                              <td>Outstanding and informative.</td>
+                              <td>
+<pre class="sys-msg">Your location has 
+been sent to dispatch.</pre>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Contact names</td>
+                              <td>Distinguish between online and offline users.</td>
+                              <td>
+                                  <span class="contact-name online">John Dole</span><br>
+                                  <span class="contact-name offline">Alton John</span>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Instruction text (Car toll instructions)</td>
+                              <td>Friendly for reading.</td>
+                              <td>
+<pre class="instruct-msg">Your request has
+been received and we 
+are processing it.
+We will get back to
+you on a call.</pre>
+                              </td>
+                            </tr>
+                          </table>
+
+                        <hr>           
+                        
+                    </div> 
+            </div>
+        </div>
+    </body>
+</html>
