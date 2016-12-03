@@ -1,0 +1,26 @@
+{
+  "name": "SSNoC",
+  "description": "",
+  "main": "",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "angular-resource": "^1.5.0",
+    "mobile-angular-ui": "^1.2.0-rc.3",
+    "ng-scroll-glue": "^2.0.7"
+  }
+}

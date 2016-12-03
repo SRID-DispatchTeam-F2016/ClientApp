@@ -1,0 +1,136 @@
+body {
+	padding-top:0px;
+	width: 100%;
+    height: 100%;
+	width: 100%;
+    height: 100%;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+	/*color: #00B7FF;*/
+	color: #CFCFCF;
+}
+
+th {
+	background-color: #CFCFCF;
+}
+
+.Border {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.noBorder {
+	border: none;
+}
+
+.submit-btn {
+	background-color: #b1dbff;
+	margin: 15px 0 0px 0;
+	padding: 10px;
+}
+
+.container2 {
+	padding: 15px;
+}
+
+.container3 {
+	padding: 10px;
+}
+
+.clearfix {
+	margin: 10px;
+}
+
+.navbar-fluid {
+	background-color: #FBFFED;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 5px;
+}
+
+.fluid-container {
+	background-color: #FBFFED;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 5px;
+}
+
+.chat {
+	padding: 10px;
+	margin: 5px 10px 0px 10px;
+	border-radius: 5px;
+}
+
+.announcement {
+	padding: 10px;
+	margin: 5px 10px 0px 10px;
+	border-radius: 5px;
+}
+
+.form-auth {
+	max-width: 330px;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.name {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+.privateChatter {
+  color: #b1dbff
+}
+
+.map {
+	height: 100%;
+	width: 100%;
+}
+
+#CONTROL_BORDER {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.ng-scope {
+	background-color: #FFFFFF;
+}
+
+#home-body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column wrap;
+	align-content: stretch;
+}
+#location-icon{
+	font-size: 100px;
+	color: #00f;
+	margin: 20px;
+}
+
+#message-icon{
+	font-size: 100px;
+	color: #00f;
+	margin: 20px;
+}
+
+#camera-icon{
+	font-size: 100px;
+	color: #00f;
+	margin: 20px;
+}
+
+#contact-icon{
+	font-size: 100px;
+	color: #00f;
+	margin: 20px;
+}
