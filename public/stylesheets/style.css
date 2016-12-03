@@ -112,6 +112,11 @@ th {
 	flex-flow: column wrap;
 	align-content: stretch;
 }
+
+#home {
+	padding-top: 10px;
+}
+
 #location-icon{
 	font-size: 100px;
 	color: #00f;

@@ -19,6 +19,12 @@ body {
     border-color:#000033;
 }
 
+.material-icons {
+    font-size: 100px;
+    color: #00f;
+    margin: 20px;
+}
+
 .icon-bar {
     background-color:#fff;
 }
