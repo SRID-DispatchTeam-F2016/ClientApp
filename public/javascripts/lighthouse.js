@@ -21,9 +21,9 @@ angular.module('chatApp').run(
 
 angular.module('chatApp').config(['$routeProvider', function ($routeProvider) {
   $routeProvider
-    .when('/messages/public', {
-      templateUrl: 'publicChat.html',
-      controller: 'PublicChatController as vm',
+    .when('/message', {
+      templateUrl: 'message.html',
+      controller: 'MessageController as vm',
       reloadOnSearch: false
     })
       .when('/', {
