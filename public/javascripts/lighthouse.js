@@ -40,7 +40,12 @@ angular.module('chatApp').config(['$routeProvider', function ($routeProvider) {
         templateUrl: 'contact.html',
         controller: 'ContactController as vm',
         reloadOnSearch: false
-    });
+    })
+      .when('/camera', {
+          templateUrl: 'camera.html',
+          controller: 'CameraController as vm',
+          reloadOnSearch: false
+      });
 }]);
 
 angular.module('chatApp').config(['$logProvider', function ($logProvider) {
