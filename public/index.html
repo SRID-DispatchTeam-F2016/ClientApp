@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>FSE_1st</title>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="yes" />
+
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-route/angular-route.min.js"></script>
+		<script src="bower_components/angular-resource/angular-resource.min.js"></script>
+		<script src="bower_components/mobile-angular-ui/dist/js/mobile-angular-ui.gestures.min.js"></script>
+		<script src="bower_components/mobile-angular-ui/dist/js/mobile-angular-ui.min.js"></script>
+		<script src="bower_components/ng-scroll-glue/dist/ng-scroll-glue.js"></script>
+		<script src="/bower_components/ngmap/build/scripts/ng-map.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBasjIkbb0uiA2dEoGePrJ7Px49LNLs1F8"></script>
+		<script src="https://cdn.gitcdn.link/cdn/angular/bower-material/v1.0.8/angular-material.js"></script>
+
+		<link rel="stylesheet" href="stylesheets/style.css">
+		<link rel="stylesheet" href="bower_components/mobile-angular-ui/dist/css/mobile-angular-ui-base.min.css">
+		<link rel="stylesheet" href="bower_components/mobile-angular-ui/dist/css/mobile-angular-ui-desktop.min.css">
+		<link rel="stylesheet" href="bower_components/mobile-angular-ui/dist/css/mobile-angular-ui-hover.min.css">
+		<link rel="stylesheet" href="bower_components/mobile-angular-ui/dist/css/mobile-angular-ui-hover.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="javascripts/lighthouse.js"></script>
+		<script src="javascripts/controllers/HomeController.js"></script>
+		<script src="javascripts/controllers/PublicChatController.js"></script>
+		<script src="javascripts/controllers/LocationController.js"></script>
+		<script src="javascripts/services/currentUserService.js"></script>
+		<script src="javascripts/services/publicHistoryService.js"></script>
+		<script src="javascripts/services/rest.js"></script>
+		<script src="javascripts/services/socket.js"></script>
+	</head>
+	<body ng-app="chatApp" ui-prevent-touchmove-defaults>
+
+	<div ng-include="'sidebar.html'"
+		 ui-track-as-search-param='true'
+		 class="sidebar sidebar-left"></div>
+
+	<div class="app"
+		 ui-swipe-right='Ui.turnOn("uiSidebarLeft")'
+		 ui-swipe-left='Ui.turnOff("uiSidebarLeft")'>
+
+	<div class="navbar navbar-app navbar-absolute-top">
+		<div class="navbar-brand navbar-brand-center" ui-yield-to="title">
+			Light House SSNoC
+		</div>
+		<div class="btn-group pull-left">
+			<div ui-toggle="uiSidebarLeft" class="btn sidebar-toggle">
+				<i class="fa fa-bars"></i> Menu
+			</div>
+		</div>
+	</div>
+
+
+	<div class="navbar navbar-app navbar-absolute-bottom">
+		<div class="btn-group justified">
+			<!--a href="#/" class="btn btn-navbar"><i class="fa fa-home fa-navbar"></i>Home</a-->
+			<a href="#/messages/public" class="btn btn-navbar"><i class="fa fa-home fa-navbar"></i>Message</a>
+			<a href="#/location" class="btn btn-navbar"><i class="fa fa-home fa-navbar"></i>Location</a>
+			<a href="#/" class="btn btn-navbar"><i class="fa fa-home fa-navbar"></i>Camera</a>
+			<a href="#/" class="btn btn-navbar"><i class="fa fa-home fa-navbar"></i>Contact</a>
+		</div>
+	</div>
+
+		<div class="app-body container2 col-md-offset-3 col-md-6" ng-class="{loading: loading}">
+			<div ng-show="loading" class="app-content-loading">
+				<i class="fa fa-spinner fa-spin loading-spinner"></i>
+			</div>
+			<div class="app-content">
+				<ng-view></ng-view>
+			</div>
+		</div>
+
+	</div><!-- ~ .app -->
+	<div ui-yield-to="modals"></div>
+	</body>
+</html>

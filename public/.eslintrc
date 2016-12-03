@@ -1,0 +1,7 @@
+{
+  "root": true,
+  "extends": ["angular", "airbnb/legacy"],
+  "rules": {
+    "angular/di": [2, "array"]
+  }
+}
