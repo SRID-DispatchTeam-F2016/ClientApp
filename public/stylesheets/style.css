@@ -107,6 +107,7 @@ th {
 #home-body {
 	display: flex;
 	align-items: center;
+	vertical-align: 50%;
 	justify-content: center;
 	flex-flow: column wrap;
 	align-content: stretch;
@@ -133,4 +134,16 @@ th {
 	font-size: 100px;
 	color: #00f;
 	margin: 20px;
+}
+
+.block {
+	display: inline-flex;
+}
+.block:first-child {
+	padding-top: 20%;
+}
+.block p {
+	font-style: sans-serif;
+	font-weight: bolder;
+	text-align: center;
 }
