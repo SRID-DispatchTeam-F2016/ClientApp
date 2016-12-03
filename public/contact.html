@@ -1,0 +1,23 @@
+<div ui-content-for="title">
+    <span>Your Emergency Contacts</span>
+</div>
+
+<div class="scrollable">
+    <div class="scrollable-content section">
+        <!--legend>Directory</legend-->
+        <div id="direct-stream">
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Number</th>
+                    </tr>
+                    <tr class="directory" ng-repeat="user in vm.users" ng-class-odd="'odd'" ng-class-even="'even'">
+                        <td><p>{{user.username}}</p></td>
+                        <td><p>{{user.number}}</p></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
