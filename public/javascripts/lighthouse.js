@@ -35,6 +35,11 @@ angular.module('chatApp').config(['$routeProvider', function ($routeProvider) {
         templateUrl: 'location.html',
         controller: 'LocationController as vm',
         reloadOnSearch: false
+    })
+    .when('/contact', {
+        templateUrl: 'contact.html',
+        controller: 'ContactController as vm',
+        reloadOnSearch: false
     });
 }]);
 
