@@ -1,4 +1,4 @@
-angular.module('chatApp').controller('PublicChatController',
+angular.module('chatApp').controller('MessageController',
   ['$window', '$scope', 'socket', 'rest', 'publicHistoryService', 'currentUserService',
     function ($window, $scope, socket, rest, publicHistoryService, currentUserService) {
       var vm = this;
