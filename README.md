@@ -23,9 +23,11 @@ SRID_F16_Dispatch Repo
 
 4. Socket.io
 
-5. Google Map Javascript API
+5. SQLite
 
-6. Mobile Angular UI
+6. Google Map Javascript API
+
+7. Mobile Angular UI
 
 ## Operation Instructions
 

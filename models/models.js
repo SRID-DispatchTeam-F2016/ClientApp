@@ -7,7 +7,7 @@ const PublicMessage = connection.define('public_message',
   PublicMessageMeta.attributes, PublicMessageMeta.options);
 
 const init = () => {
-  PublicMessage.sync({ force: false });
+  // PublicMessage.sync({ force: false });
 };
 
 module.exports.init = init;
