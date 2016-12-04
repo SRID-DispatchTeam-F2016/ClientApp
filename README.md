@@ -13,9 +13,21 @@ SRID_F16_Dispatch Repo
 
 5. Automated processes for standardized procedures such as towed cars
 
-## Supported Nodejs version: 0.10.25
+## Technology Stack
 
-Please use the Node.js version from this source: https://nodejs.org/en/blog/release/v0.10.25/]
+1. AngularJS
+
+2. Node.js
+
+3. Express.js
+
+4. Socket.io
+
+5. Google Map Javascript API
+
+6. Mobile Angular UI
+
+## Operation Instructions
 
 If using this template on Linux Ubuntu, add the following line to ./bashrc to include the path to the binary:
 
@@ -32,3 +44,19 @@ Install the components needed to run the node server:
 Then run the server:
 
 - npm start
+
+## Supported Nodejs version: 6.1.0
+
+Please use the Node.js version from this source: https://nodejs.org/en/blog/release/v6.1.0/]
+
+## Style Guide
+
+/SRID-DispatchTeam-F2016/ClientApp/SRID-Dispatch-Style-Guide/
+
+## API Requirements
+
+## Limitations
+
+1. The camera operation is hardcoded. Next step after high-fidelity is to use a real camera through a browser.
+
+2. Contacts are hardcoded now. Next step after high-fidelity is to make the list editable.

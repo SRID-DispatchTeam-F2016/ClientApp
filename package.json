@@ -1,10 +1,9 @@
 {
-  "name": "SSNoC",
+  "name": "SRID",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js",
-    "test": "mocha --ui bdd --reporter mocha-junit-reporter --reporter-options mochaFile=junit.xml test/*"
+    "start": "node app.js"
   },
   "dependencies": {
     "bcrypt": "^0.8.5",
@@ -18,8 +17,6 @@
     "express-session": "^1.13.0",
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
-    "passport": "~0.3.2",
-    "passport-local": "~1.0.0",
     "sequelize": "~3.19.2",
     "serve-favicon": "~2.3.0",
     "socket.io": "^1.4.4",
@@ -31,15 +28,11 @@
     "babel-eslint": "^5.0.0",
     "babel-preset-es2015": "^6.5.0",
     "babel-register": "^6.6.5",
-    "chai": "^3.5.0",
     "eslint": "^2.2.0",
     "eslint-config-airbnb": "^6.0.2",
     "eslint-config-angular": "^0.5.0",
     "eslint-plugin-angular": "^1.0.0",
     "eslint-plugin-react": "^4.1.0",
-    "mocha": "~2.4.5",
-    "mocha-junit-reporter": "~1.9.1",
-    "sinon": "^1.17.3",
     "istanbul": "0.4.2"
   }
 }
