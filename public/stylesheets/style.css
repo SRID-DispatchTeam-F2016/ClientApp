@@ -125,8 +125,12 @@ th {
 
 #message-icon{
 	font-size: 100px;
-	color: #00f;
+	color: #f00;
 	margin: 20px;
+}
+
+#message-text{
+	color: #f00;
 }
 
 #camera-icon{
