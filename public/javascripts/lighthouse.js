@@ -41,6 +41,11 @@ angular.module('chatApp').config(['$routeProvider', function ($routeProvider) {
         controller: 'ContactController as vm',
         reloadOnSearch: false
     })
+      .when('/help', {
+          templateUrl: 'help.html',
+          controller: 'HelpController as vm',
+          reloadOnSearch: false
+      })
       .when('/camera', {
           templateUrl: 'camera.html',
           controller: 'CameraController as vm',
